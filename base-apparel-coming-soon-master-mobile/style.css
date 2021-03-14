@@ -1,0 +1,70 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.container{
+    display:flex;
+    flex-direction:column;
+}
+
+.logoPic{
+    positon:relative;
+    right:50px;
+    padding: 30px 1fr 30px 30px;
+    padding-top:30px;
+    padding-right:auto;
+    padding-bottom:30px;
+    padding-left:30px;
+}
+.logoPic img{
+    width:120px;
+}
+
+.heroPic{
+    width:375px;
+    height:250px;
+    background-image:url('images/hero-mobile.jpg');
+    background-repeat:no-repeat;
+}
+
+.heading{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.heading .were{
+    font-weight:300;
+    color:hsl(0, 36%, 70%);
+}
+
+.heading .coming, .soon{
+    font-weight:600;
+    color: hsl(0, 6%, 24%);
+}
+
+.description{
+    width:355px;
+    text-align:center;
+    align-self:center;
+    color:hsl(0, 36%, 70%);
+}
+
+.inputField{
+    align-self:center;
+    border: 1px solid #FFB0B0;
+    width:340px;
+    height: 45px;
+    border-radius: 40px 40px 40px 40px;
+}
+.inputField input{
+    border:none;
+    position:relative;
+    top:3px;
+    left:1.5px;
+    width:330px;
+    height:35px;
+    border-radius: 40px 40px 40px 40px;
+}
+.inputField input:focus{
+    outline:none;
+}
